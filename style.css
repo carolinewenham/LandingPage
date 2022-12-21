@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap');
+
+
+html{
+    font-size: 16px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+   
+
+}
+.logo{
+    max-width: 100px;
+    flex: 1 1 20rem;
+    height: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul li{
+    margin-left: 40px;
+    flex: 1 1 20rem;
+    list-style: none;
+}
+ul li a{
+    cursor: pointer;
+}
+
+.hero{
+    height: 90vh;
+    width: 100% !important;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(158,205,249,1) 0%, rgba(221,238,241,1) 100%);
+padding-top: 50px;
+/* display: flex;
+align-items: center;
+justify-content: center; */
+}
+
+.container{
+ 
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3px);
+-webkit-backdrop-filter: blur(3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+display: flex;
+ align-items: center; 
+ justify-content: space-evenly;
+
+
+
+
+
+
+
+  
+}
+
+.image{
+width: 50%;
+
+}
+
+.content{
+    flex: 1 1 20rem ;
+    padding: 20px;
+}
+.image img{
+max-height: 75vh;
+max-width:90%;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+}
+
+h2{
+    font-size: 2rem;
+    
+    line-height: 1.5;
+
+}
+
+.shop{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7CA1D9;
+    font-size: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.content p {
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: #7CA1D9;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.thumbnail{
+    margin-left: 0px;
+    width: fit-content;
+}
+
+@media screen and (max-width: 950px) {
+
+    html{
+        font-size: 12px;
+    }
+    
+    .container{
+        flex-direction: column !important;
+        justify-self:center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: fit-content;
+       
+       
+     
+    
+    }
+
+    .hero{
+        height: 90vh;
+        width: 100%;
+    }
+    
+    .waterbank-image{
+       width: 100%;
+        border-radius: 10px;
+    }
+  }
+
